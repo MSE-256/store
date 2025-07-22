@@ -1,0 +1,33 @@
+# Django core
+Django==4.2.10
+
+# Extensiones útiles para desarrollo
+django-environ==0.11.2
+django-extensions==3.2.3
+djangorestframework==3.15.1
+djangorestframework-simplejwt==5.3.1
+drf-yasg==1.21.7
+
+# Base de datos
+psycopg2-binary==2.9.9  # PostgreSQL
+# mysqlclient==2.2.4  # Si usás MySQL en vez de PostgreSQL
+
+# Static/media
+Pillow==10.3.0
+
+# Validaciones extra
+python-decouple==3.8
+validators==0.22.0
+
+# Seguridad y CORS
+django-cors-headers==4.3.1
+django-filter==24.1
+
+# Otras
+gunicorn>=20.1.0
+whitenoise==6.6.0
+
+# Para producción
+uvicorn==0.29.0
+
+whitenoise
