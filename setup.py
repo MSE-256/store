@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="tienda",      # Cambia por el nombre de tu paquete
-    version="0.1.0",                # Versión inicial
+    version="1.0.0",                # Versión inicial
     author="NEC",             # Opcional: tu nombre o el de tu equipo
     author_email="arenitamar7632@gmail.com",  # Opcional: tu email
     description="venta de productos o servicios",  # Descripción breve
